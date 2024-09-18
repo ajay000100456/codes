@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: brown;
+        }
+        .card {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 350px;
+            padding: 20px;
+            background-color: bisque;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px #b40d0d;
+            text-align: center;
+        }
+        .profile-img {
+            width: 100px;
+            height: 100px;
+            border-radius: 50% 50% 0 0;
+            line-height: 100px;
+            margin-bottom: 20px;
+            overflow: hidden;
+        }
+        .profile-img img {
+            width: 100%;
+            height: auto;
+        }
+        h1{
+            font-size: 1.5em;
+            margin-bottom: 10px;
+        }
+        h2{
+            font-size: 1.2em;
+            color: rgb(7, 121, 83);
+            margin-bottom: 20px;
+        }
+        .contact-info{
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .contact-info div{
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        .contact-info i{
+            font-style: normal;
+            color: bisque;
+            background-color: rgb(255, 0, 179);
+            border-radius: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <div class="card">
+        <div class="profile-img">
+            <img src="pic3.jpg" alt="profile image">
+        </div>
+        <h1>John</h1>
+        <h2>Web developer</h2>
+        <div class="contact-info">
+            <div><i class="fa-solid fa-envelope"></i>john@gmail.com</div>
+            <div><i class="fa-solid fa-phone"></i>1234567</div>
+            <div><i class="fa-solid fa-globe"></i>www.johndoe.com</div>
+        </div>
+    </div>
+</body>
+</html>
