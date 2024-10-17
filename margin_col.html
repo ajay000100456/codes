@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Col margins</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <style>
+        [class^="container"]{
+            background-color: rgb(208, 233, 96);
+            padding-top: 2rem;
+            border: 2px solid rgb(66, 28, 19);
+            padding-bottom: 10px;
+        }
+        [class^="col"]{
+            padding-top: 2rem;
+            padding-top: 2rem;
+            background-color: rgb(131, 113, 128);
+            border: 2px solid rgb(155, 46, 131);
+            font-size: 1.5rem;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">m-0</div>
+            <div class="col">m-0</div>
+            <div class="col">m-0</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col mx-2">mx-2</div>
+            <div class="col mx-2">mx-2</div>
+            <div class="col mx-2">mx-2</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col my-2">my-2</div>
+            <div class="col my-2">my-2</div>
+            <div class="col my-2">my-2</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col ms-5">ms-5</div>
+            <div class="col me-5">me-5</div>
+            <div class="col mt-5">mt-5</div>
+            <div class="col mb-5">mb-5</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">col-2</div>
+            <div class="col-2 me-auto">col-2 me-auto</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col-2">col-2</div>
+            <div class="col-2 ms-auto">col-2 ms-auto</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col m-md-5">col m-md-5</div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="col m-md-5 m-lg-2 m-sm-3">col m-md-5 m-lg-2 m-sm-3</div>
+        </div>
+    </div>
+</body>
+</html>
